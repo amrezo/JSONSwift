@@ -44,6 +44,12 @@ class JSONTableViewController: UITableViewController {
         let todoItem = todoList[indexPath.row]
         
         cell.textLabel?.text = todoItem.title
+        
+        if todoItem.completed == true {
+            cell.accessoryType = .checkmark
+        } else {
+            cell.accessoryType = .none
+        }
 
         return cell
     }
