@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		B5B58EEA20546EAF0056BD77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B58EE920546EAF0056BD77 /* AppDelegate.swift */; };
-		B5B58EEC20546EAF0056BD77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B58EEB20546EAF0056BD77 /* ViewController.swift */; };
 		B5B58EEF20546EAF0056BD77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B58EED20546EAF0056BD77 /* Main.storyboard */; };
 		B5B58EF120546EAF0056BD77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B58EF020546EAF0056BD77 /* Assets.xcassets */; };
 		B5B58EF420546EAF0056BD77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B58EF220546EAF0056BD77 /* LaunchScreen.storyboard */; };
+		B5B58EFC20546F580056BD77 /* JSONTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B58EFB20546F580056BD77 /* JSONTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B5B58EE620546EAF0056BD77 /* JSONSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B58EE920546EAF0056BD77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5B58EEB20546EAF0056BD77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B5B58EEE20546EAF0056BD77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5B58EF020546EAF0056BD77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5B58EF320546EAF0056BD77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5B58EF520546EAF0056BD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B58EFB20546F580056BD77 /* JSONTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				B5B58EE920546EAF0056BD77 /* AppDelegate.swift */,
-				B5B58EEB20546EAF0056BD77 /* ViewController.swift */,
+				B5B58EFB20546F580056BD77 /* JSONTableViewController.swift */,
 				B5B58EED20546EAF0056BD77 /* Main.storyboard */,
-				B5B58EF020546EAF0056BD77 /* Assets.xcassets */,
 				B5B58EF220546EAF0056BD77 /* LaunchScreen.storyboard */,
+				B5B58EF020546EAF0056BD77 /* Assets.xcassets */,
 				B5B58EF520546EAF0056BD77 /* Info.plist */,
 			);
 			path = JSONSwift;
@@ -136,8 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B58EEC20546EAF0056BD77 /* ViewController.swift in Sources */,
 				B5B58EEA20546EAF0056BD77 /* AppDelegate.swift in Sources */,
+				B5B58EFC20546F580056BD77 /* JSONTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
